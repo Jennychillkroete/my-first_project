@@ -1,0 +1,175 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/*main_navigation*/
+
+ul.main_nav {
+  /* border: 2px solid red;*/
+  background-color: rgba(138, 194, 224, 0.09);
+  display: flex;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+ul.main_nav li a {
+  border: solid rgb(63, 99, 114);
+  border-radius: 15px;
+  color: rgb(5, 43, 60);
+  font-weight: bold;
+  padding: 15px 25px;
+  margin: 0px 15px;
+  text-decoration: none;
+}
+
+ul.main_nav li a:hover {
+  color: rgb(240, 242, 219);
+}
+
+.main_header {
+  min-height: 100vh;
+  background-image: url("./my_project_img/bild-oben.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10px 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main_header h1 {
+  font-size: 150px;
+  font-family: 'Great Vibes', cursive;
+  display: flex;
+  justify-content: center;
+}
+
+.main_header p {
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.fishcards {
+  background-color: rgba(49, 100, 124, 0.663);
+  min-height: 100vh;
+}
+
+main.fishcards h2 {
+  
+  color: rgba(7, 33, 61, 0.892);
+  font-size: 48px;
+  font-family: "Pacifico", cursive;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+.container_blue {
+  min-height: 40vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 250px;
+  height: 500px;
+  margin: 30px 20px;
+}
+.card_top {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px 10px 0px 0px;
+  height: 50%;
+}
+
+.card_one {
+  background-image: url("./my_project_img/4417b127-c8ce-4973-8245-f9fe9cdf69ee.jpg");
+}
+.card_two {
+  background-image: url("./my_project_img/017a87b4-92a3-4f19-b13e-7c1f981b70be.jpg");
+}
+.card_three {
+  background-image: url("./my_project_img/Download.jpg");
+}
+.card_four {
+  background-image: url("./my_project_img/700335Uch3iUFJUN4bG_600x600.jpg");
+}
+
+.card_bottom {
+  background-color: #a8dadc;
+  color: aliceblue;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0px 0px 10px 10px;
+  height: 50%;
+}
+
+.card_bottom h3{
+  color:#03045e;
+  margin: 15px 2px 25px;
+}
+
+.card_bottom p{
+  color: #13315c;
+  margin: 10px;
+}
+.card_bottom a {
+  color: rgba(68, 108, 157, 0.686);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+.card_bottom a:hover {
+  color: white;
+}
+
+.main_contact {
+  padding: 10px 25px;
+  background-image: url("./my_project_img/bild-unten.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.main_contact h2 {
+  font-size: 24px;
+  font-family: "Pacifico", cursive;
+  margin: 8px;
+}
+.text_container {
+  display: flex;
+  flex-direction: column;
+  width: 68%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+}
+.text_container h3 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #424242;
+  margin: 15px;
+}
+.text_container p {
+  color: #484848;
+  font-family: 'Lobster Two', cursive;
+  font-size: 30px;
+
+}
+.text_container img {
+  border-radius: 60px 60px 10px 10px;
+  margin: 15px;
+}

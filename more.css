@@ -1,0 +1,23 @@
+.main-body {
+  min-height: 100vh;
+  background-image: url("./my_project_img/zweit-seite.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10px 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Lobster Two", cursive;
+}
+
+
+.img-position{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.img-position img{
+  margin: 15px 45px 20px;
+}
